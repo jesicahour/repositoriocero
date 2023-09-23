@@ -16,10 +16,11 @@
 .cajac1 {
     background-color: rgb(161, 242, 248);
     border: 2px solid rgb(165, 116, 197);
+    
+   
     text-align: center;
-    line-height: 90px;
-    float: left;
     border-radius: 10px;
+  
 }
 
 .cajac2 {
@@ -80,10 +81,11 @@
 
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    width: 100%;
+    justify-content: baseline;
     margin: 0 auto;
     border: none;
-    column-gap: 18px;
+    column-gap: none;
+    
 }
 
 
@@ -114,9 +116,8 @@ h2 {
     color: rgb(83, 23, 139);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
-
     padding: 2%;
-    border: 2px solid rgb(191, 174, 202);
+   
     border-radius: 10px;
 }
 
