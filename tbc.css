@@ -1,0 +1,255 @@
+h1 {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(83, 23, 139);
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(235, 211, 211);
+
+}
+
+h2 {
+    font-size: 120%;
+    color: rgb(83, 23, 139);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    background-color: rgb(191, 174, 202);
+    padding: 2%;
+    border: 2px solid rgb(83, 23, 139);
+
+}
+
+.fototbc {
+    width: 150px;
+    height: 150px;
+    box-shadow: 8px 8px 8px;
+    border: 2px solid black;
+    display: flex;
+    translate: 350%;
+
+}
+
+
+
+.mapatbc {
+    width: 350px;
+    height: 350px;
+    box-shadow: 8px 8px 8px;
+    border: 2px solid black;
+    translate: 130%;
+
+
+}
+
+
+.sintomastbc {
+    width: 230px;
+    height: 230px;
+    box-shadow: 8px 8px 8px;
+    border: 2px solid black;
+    translate: 215%;
+}
+
+.muestraesputo {
+    width: 150px;
+    height: 150px;
+    box-shadow: 8px 8px 8px;
+    border: 2px solid black;
+    translate: 320%;
+
+
+}
+
+.rxnormal {
+    width: 300px;
+    height: 300px;
+    box-shadow: 8px 8px 8px;
+    border: 4px solid black;
+    ;
+
+
+}
+
+.rxtbc {
+    width: 300px;
+    height: 300px;
+    box-shadow: 8px 8px 8px;
+    border: 4px solid black;
+
+
+}
+
+.bloquerx {
+    translate: 25%;
+}
+
+.primerafasemedicacion {
+    width: 300px;
+    height: 300px;
+    box-shadow: 8px 8px 8px;
+    border: 2px solid black;
+    margin: 18px;
+    display: flex;
+    translate: 150%;
+
+}
+
+.dos {
+    width: 600px;
+    height: 400px;
+    box-shadow: 8px 8px 8px;
+    border: 2px solid black;
+    margin: 18px;
+    display: flex;
+    translate: 55%;
+}
+
+.fototbc {
+    width: 150px;
+    height: 150px;
+    box-shadow: 8px 8px 8px;
+    border: 2px solid black;
+    display: flex;
+    translate: 350%;
+
+}
+
+
+
+.mapatbc {
+    width: 350px;
+    height: 350px;
+    box-shadow: 8px 8px 8px;
+    border: 2px solid black;
+    translate: 130%;
+
+
+}
+
+
+.sintomastbc {
+    width: 230px;
+    height: 230px;
+    box-shadow: 8px 8px 8px;
+    border: 2px solid black;
+    translate: 215%;
+}
+
+.muestraesputo {
+    width: 150px;
+    height: 150px;
+    box-shadow: 8px 8px 8px;
+    border: 2px solid black;
+    translate: 320%;
+
+
+}
+
+.rxnormal {
+    width: 300px;
+    height: 300px;
+    box-shadow: 8px 8px 8px;
+    border: 4px solid black;
+    ;
+
+
+}
+
+.rxtbc {
+    width: 300px;
+    height: 300px;
+    box-shadow: 8px 8px 8px;
+    border: 4px solid black;
+
+
+}
+
+.bloquerx {
+    translate: 25%;
+}
+
+.primerafasemedicacion {
+    width: 300px;
+    height: 300px;
+    box-shadow: 8px 8px 8px;
+    border: 2px solid black;
+    margin: 18px;
+    display: flex;
+    translate: 150%;
+
+}
+
+.dos {
+    width: 600px;
+    height: 400px;
+    box-shadow: 8px 8px 8px;
+    border: 2px solid black;
+    margin: 18px;
+    display: flex;
+    translate: 55%;
+}
+
+
+
+.letratodo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(83, 23, 139);
+    justify-content: center;
+    font-size: 130%;
+    padding: 30px;
+    overflow: hidden;
+}
+/* el overflow hidden oculta lo que se desborda de la caja.(en este caso no hacia falta, aumenté el padding */
+@media only screen and (max-width: 500px) {
+
+    .fototbc {
+        translate: 45%;
+
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    .rxnormal {
+        width: 100px;
+        height: 100px;
+        box-shadow: 8px 8px 8px;
+        border: 4px solid black;
+        translate: 3%;
+
+
+
+    }
+
+    .rxtbc {
+        width: 200px;
+        height: 200px;
+        box-shadow: 8px 8px 8px;
+        border: 4px solid black;
+        translate: 3%;
+
+    }
+
+    .mapatbc {
+        width: 200px;
+        height: 200px;
+        box-shadow: 8px 8px 8px;
+        border: 2px solid black;
+        translate: 3%;
+
+
+    }
+
+    .sintomastbc {
+        width: 200px;
+        height: 200px;
+        box-shadow: 8px 8px 8px;
+        border: 2px solid black;
+        translate: 3%;
+    }
+
+
+}

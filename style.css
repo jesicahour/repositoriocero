@@ -1,0 +1,521 @@
+/* con ctrl K C puedo hacer los comentarios */
+/* el padding me da el tamaño del ancho. El border es para aplicarle los estilos, solid es en linea, dotted punteado.
+  Tengo que poner el tamaño seguido de las características y el color(border: 6px dotted fuchsia;). Border bottom le da un márgen o le saca*/
+/* el margin 5% bajó el titulo */
+/* el display pone el elemento en linea respetando las dimensiones que le pusimos previamente */
+/* position relative para que la caja se corra, top los pixeles que quiero que baje y left los que quiero que se corra del lado izquierdo */
+/* el position absolute lo corre segun la pantalla, puede superponerse en otros textos. puede usarse para ponerle textos encima de un video o imagen */
+/* el position fixed es como el absolute pero sigue al usuario a medida que vaya corriendo la pagina */
+/* el position sticky es como el fixed pero recién se activa cuando llego a la parte donde lo puse y empieza a bajar con el usuario */
+/* z-index es para poner la caja de position por debajo de los demás elementos, tengo que ponerle un numero positivo si quiero que esté
+ encima o uno negativo -1 si lo quiero de fondo */
+.gri {
+    background-color: rgb(214, 212, 212);
+}
+
+.cajac1 {
+    background-color: rgb(161, 242, 248);
+    border: 2px solid rgb(165, 116, 197);
+    text-align: center;
+    line-height: 90px;
+    float: left;
+    border-radius: 10px;
+}
+
+.cajac2 {
+    background-color: rgb(177, 252, 102);
+    border: 2px solid rgb(165, 116, 197);
+    text-align: center;
+    line-height: 90px;
+    float: left;
+    border-radius: 10px;
+}
+
+.cajac3 {
+    background-color: rgb(255, 148, 109);
+    border: 2px solid rgb(165, 116, 197);
+    text-align: center;
+    line-height: 90px;
+    float: left;
+    border-radius: 10px;
+
+}
+
+.cajac4 {
+    background-color: rgb(250, 78, 178);
+    border: 2px solid rgb(165, 116, 197);
+    text-align: center;
+    line-height: 90px;
+    float: left;
+    border-radius: 10px;
+
+}
+
+.cajac5 {
+    background-color: rgb(164, 212, 210);
+    border: 2px solid rgb(165, 116, 197);
+    text-align: center;
+    line-height: 90px;
+    float: left;
+    border-radius: 10px;
+
+}
+
+.cajac6 {
+    background-color: rgb(236, 255, 128);
+    border: 2px solid rgb(165, 116, 197);
+    text-align: center;
+    line-height: 90px;
+    float: left;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+/* el column gap separa los bloques */
+.grid-layout {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    column-gap: 18px;
+}
+
+
+body {
+    background-color: rgb(235, 211, 211);
+}
+
+
+
+
+h1 {
+    color: rgb(83, 23, 139);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    padding: 1%;
+    border: 3px solid rgb(216, 202, 226);
+    box-shadow: 4px 4px 4px;
+    background-color: rgb(245, 168, 241);
+    border-radius: 10px;
+
+
+}
+
+h2 {
+
+    font-size: 120%;
+    color: rgb(83, 23, 139);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+
+    padding: 2%;
+    border: 2px solid rgb(191, 174, 202);
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 120%;
+    color: rgb(83, 23, 139);
+}
+
+
+.todolodemas {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    font-size: 130%;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.lasvacus {
+    list-style: none;
+}
+
+
+.quesonlasvacunas {
+    text-transform: none;
+    color: rgb(83, 23, 139);
+}
+
+
+
+
+
+/* el display flex pone las imagenes una al lado de la otra,evita que se superpongan.tienen que estar en un contenedor. justify content hace un justificado
+como en los textos y center las centra */
+
+
+
+
+.primer {
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+    box-shadow: 8px 8px 8px;
+}
+
+
+.lista {
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+    box-shadow: 8px 8px 8px;
+
+}
+
+
+#calendario {
+    font-size: 70%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bajocalendario {
+    font-size: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+    list-style: none;
+    text-transform: uppercase;
+    color: rgb(83, 23, 139);
+
+}
+
+
+
+
+
+.contenedor h4 {
+
+    margin: 8px;
+
+}
+
+/* flex */
+/* flex wrap */
+/* flex wrap hace que no desborde a lo horizontal */
+/* CON WIDTH(ANCHO) Y HEIGHT(ALTO) MODIFICO EL TAMAÑO DE LAS IMAGENES */
+/* flex direction */
+/* flex flow , une valores*/
+
+.uno {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+
+}
+
+.dos {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+}
+
+.tres {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+}
+
+.cuatro {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+}
+
+.cinco {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+}
+
+.seis {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+}
+
+.siete {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+}
+
+.ocho {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+}
+
+.nueve {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+
+}
+
+.diez {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+
+}
+
+.once {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+
+}
+
+.doce {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+
+}
+
+.trece {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+
+}
+
+.catorce {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+
+}
+
+.quince {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+
+}
+
+.dieciseis {
+    width: 180px;
+    height: 150px;
+    padding-right: 35px;
+    padding-left: 4px;
+
+}
+
+.diecisiete {
+    width: 180px;
+    height: 150px;
+    padding-left: 4px;
+    padding-right: 35px;
+
+}
+
+.dieciocho {
+    width: 180px;
+    height: 150px;
+    padding-left: 4px;
+    padding-right: 35px;
+}
+
+.contenedoruno {
+
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.contenedordos {
+
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedortres {
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedorcuatro {
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedorcinco {
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.formulario {
+    color: rgb(83, 23, 139);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid rgb(165, 116, 197);
+    box-shadow: 4px 4px 4px;
+    justify-content: center;
+    position: absolute;
+    left: 35%;
+    padding: 7%;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.th {
+    background-color: rgb(186, 253, 118);
+}
+
+.esquina {
+    background-color: rgb(212, 212, 212);
+}
+
+.columna {
+    background-color: rgb(252, 200, 105);
+}
+
+.tiposdevacunas {
+    font-size: 100%;
+    color: rgb(83, 23, 139);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.enf {
+    color: rgb(83, 23, 139);
+}
+
+/* diseño responsive */
+@media only screen and (max-width: 600px) {
+
+    
+
+
+
+
+    h1 {
+        color: rgb(83, 23, 139);
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 100%;
+        padding: 1%;
+        border: 3px solid rgb(216, 202, 226);
+        box-shadow: 4px 4px 4px;
+        background-color: rgb(245, 168, 241);
+        border-radius: 10px;
+
+
+    }
+
+    h3 {
+        font-size: 90%;
+        color: rgb(83, 23, 139);
+    }
+
+
+
+    .tiposdevacunas {
+        display: none;
+    }
+
+    .borrar {
+        display: none;
+    }
+
+    .contenedoruno {
+        display: grid;
+    }
+
+    .contenedordos {
+        display: grid;
+    }
+
+    .contenedortres {
+        display: grid;
+    }
+
+    .contenedorcuatro {
+        display: grid;
+    }
+
+    .contenedorcinco {
+        display: grid;
+    }
+
+    h2 {
+        font-size: 100%;
+        color: rgb(83, 23, 139);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: justify;
+
+        padding: none;
+        border: none;
+        border-radius: none;
+    }
+
+    .todolodemas {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        justify-content: center;
+        font-size: 90%;
+        padding: none;
+        overflow: hidden;
+    }
+
+    .formulario {
+        color: rgb(83, 23, 139);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 80%;
+        border: none;
+        box-shadow: none;
+        justify-content: center;
+        position: absolute;
+        left: 0%;
+        padding: 7%;
+        text-transform: uppercase;
+        border-radius: none;
+    }
+
+
+
+
+    .grid-layout {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (mak-width:1500px) {
+  
+
+
+}

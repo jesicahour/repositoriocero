@@ -1,0 +1,65 @@
+#reciennacidos{
+    font-size: 100%;
+    color: rgb(83, 23, 139);;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    background-color: rgb(235, 211, 211);;
+    padding: 5%; 
+    border: 2px solid rgb(83, 23, 139);;}
+
+    
+
+#embarazo{
+    font-size: 100%;
+    color: rgb(58, 0, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    background-color: rgb(235, 211, 211);
+    padding: 5%; 
+}
+#primeraño{
+    font-size: 100%;
+    color: rgb(58, 0, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    background-color: rgb(235, 211, 211);
+    padding: 5%; 
+    border: 2px solid rgb(58, 0, 112);
+}
+#dosaños{font-size: 100%;
+    color: rgb(58, 0, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    background-color: rgb(235, 211, 211);
+    padding: 5%; 
+    border: 2px solid rgb(58, 0, 112);}
+#cinco{font-size: 100%;
+    color: rgb(58, 0, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    background-color: rgb(235, 211, 211);
+    padding: 5%; 
+    border: 2px solid rgb(58, 0, 112);}
+#once{font-size: 100%;
+    color: rgb(58, 0, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify; 
+    background-color: rgb(235, 211, 211);
+    padding: 5%; 
+    border: 2px solid rgb(58, 0, 112);}
+#juventudyadultez{font-size: 100%;
+    color: rgb(58, 0, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    background-color: rgb(235, 211, 211);
+    padding: 5%; 
+    border: 2px solid ; }
+#mayores{font-size: 100%;
+    color: rgb(58, 0, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;   
+    background-color: rgb(235, 211, 211);
+    padding: 5%; 
+    border: 2px solid rgb(58, 0, 112);}
+
+#body section{background-color: crimson;}
