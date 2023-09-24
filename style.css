@@ -14,67 +14,54 @@
 }
 
 .cajac1 {
-    background-color: rgb(161, 242, 248);
-    border: 2px solid rgb(165, 116, 197);
-    
-   
-    text-align: center;
+    background-color: rgb(255, 164, 128);
+    border: 2px solid rgb(165, 116, 197);    
+    float: left;
     border-radius: 10px;
-  
+    padding: 2px;
+    
 }
 
 .cajac2 {
-    background-color: rgb(177, 252, 102);
-    border: 2px solid rgb(165, 116, 197);
-    text-align: center;
-    line-height: 90px;
+    background-color: rgb(236, 255, 128);
+    border: 2px solid rgb(165, 116, 197);    
     float: left;
     border-radius: 10px;
+    padding: 2px;
+    
 }
 
 .cajac3 {
-    background-color: rgb(255, 148, 109);
-    border: 2px solid rgb(165, 116, 197);
-    text-align: center;
-    line-height: 90px;
+    background-color: rgb(128, 255, 145);
+    border: 2px solid rgb(165, 116, 197);    
     float: left;
     border-radius: 10px;
-
+    padding: 2px;
 }
 
 .cajac4 {
-    background-color: rgb(250, 78, 178);
-    border: 2px solid rgb(165, 116, 197);
-    text-align: center;
-    line-height: 90px;
+    background-color: rgb(128, 230, 255);
+    border: 2px solid rgb(165, 116, 197);    
     float: left;
     border-radius: 10px;
-
+    padding: 2px;
 }
 
 .cajac5 {
-    background-color: rgb(164, 212, 210);
-    border: 2px solid rgb(165, 116, 197);
-    text-align: center;
-    line-height: 90px;
+    background-color: rgb(141, 128, 255);
+    border: 2px solid rgb(165, 116, 197);    
     float: left;
     border-radius: 10px;
-
+    padding: 2px;
 }
 
 .cajac6 {
-    background-color: rgb(236, 255, 128);
-    border: 2px solid rgb(165, 116, 197);
-    text-align: center;
-    line-height: 90px;
+    background-color: rgb(255, 128, 217);
+    border: 2px solid rgb(165, 116, 197);    
     float: left;
     border-radius: 10px;
-
+    padding: 2px;
 }
-
-
-
-
 
 /* el column gap separa los bloques */
 .grid-layout {
@@ -85,16 +72,16 @@
     margin: 0 auto;
     border: none;
     column-gap: none;
+    position: relative;
     
-}
+    
+    
 
+}
 
 body {
     background-color: rgb(235, 211, 211);
 }
-
-
-
 
 h1 {
     color: rgb(83, 23, 139);
@@ -117,7 +104,7 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
     padding: 2%;
-   
+
     border-radius: 10px;
 }
 
@@ -146,14 +133,8 @@ h3 {
 }
 
 
-
-
-
 /* el display flex pone las imagenes una al lado de la otra,evita que se superpongan.tienen que estar en un contenedor. justify content hace un justificado
 como en los textos y center las centra */
-
-
-
 
 .primer {
     list-style: none;
@@ -171,352 +152,312 @@ como en los textos y center las centra */
 
 }
 
-
-#calendario {
-    font-size: 70%;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.bajocalendario {
-    font-size: 90%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 20px;
-    list-style: none;
-    text-transform: uppercase;
-    color: rgb(83, 23, 139);
-
+.calendario {
+width: 100%;
+height: 100%;
 }
 
 
-
-
-
-.contenedor h4 {
-
-    margin: 8px;
-
-}
-
-/* flex */
-/* flex wrap */
-/* flex wrap hace que no desborde a lo horizontal */
-/* CON WIDTH(ANCHO) Y HEIGHT(ALTO) MODIFICO EL TAMAÑO DE LAS IMAGENES */
-/* flex direction */
-/* flex flow , une valores*/
-
-.uno {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-
-}
-
-.dos {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-}
-
-.tres {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-}
-
-.cuatro {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-}
-
-.cinco {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-}
-
-.seis {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-}
-
-.siete {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-}
-
-.ocho {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-}
-
-.nueve {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-
-}
-
-.diez {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-
-}
-
-.once {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-
-}
-
-.doce {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-
-}
-
-.trece {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-
-}
-
-.catorce {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-
-}
-
-.quince {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-
-}
-
-.dieciseis {
-    width: 180px;
-    height: 150px;
-    padding-right: 35px;
-    padding-left: 4px;
-
-}
-
-.diecisiete {
-    width: 180px;
-    height: 150px;
-    padding-left: 4px;
-    padding-right: 35px;
-
-}
-
-.dieciocho {
-    width: 180px;
-    height: 150px;
-    padding-left: 4px;
-    padding-right: 35px;
-}
-
-.contenedoruno {
-
-    display: flex;
-    justify-content: center;
-    font-size: 80%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.contenedordos {
-
-    display: flex;
-    justify-content: center;
-    font-size: 80%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.contenedortres {
-    display: flex;
-    justify-content: center;
-    font-size: 80%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.contenedorcuatro {
-    display: flex;
-    justify-content: center;
-    font-size: 80%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.contenedorcinco {
-    display: flex;
-    justify-content: center;
-    font-size: 80%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.formulario {
-    color: rgb(83, 23, 139);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 2px solid rgb(165, 116, 197);
-    box-shadow: 4px 4px 4px;
-    justify-content: center;
-    position: absolute;
-    left: 35%;
-    padding: 7%;
-    text-transform: uppercase;
-    border-radius: 10px;
-}
-
-.th {
-    background-color: rgb(186, 253, 118);
-}
-
-.esquina {
-    background-color: rgb(212, 212, 212);
-}
-
-.columna {
-    background-color: rgb(252, 200, 105);
-}
-
-.tiposdevacunas {
-    font-size: 100%;
-    color: rgb(83, 23, 139);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.enf {
-    color: rgb(83, 23, 139);
-}
-
-/* diseño responsive */
-@media only screen and (max-width: 600px) {
-
-    
-
-
-
-
-    h1 {
+    .contenedor h4 {
+        font-size: 120%;
         color: rgb(83, 23, 139);
-        text-align: center;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 100%;
-        padding: 1%;
-        border: 3px solid rgb(216, 202, 226);
-        box-shadow: 4px 4px 4px;
-        background-color: rgb(245, 168, 241);
-        border-radius: 10px;
 
 
     }
 
-    h3 {
-        font-size: 90%;
-        color: rgb(83, 23, 139);
+    /* flex */
+    /* flex wrap */
+    /* flex wrap hace que no desborde a lo horizontal */
+    /* CON WIDTH(ANCHO) Y HEIGHT(ALTO) MODIFICO EL TAMAÑO DE LAS IMAGENES */
+    /* flex direction */
+    /* flex flow , une valores*/
+
+    .uno {
+        width: 80px;
+        height: 50px;
+        
+
     }
 
-
-
-    .tiposdevacunas {
-        display: none;
+    .dos {
+        width: 80px;
+        height: 50px;
+        
     }
 
-    .borrar {
-        display: none;
+    .tres {
+        width: 80px;
+        height: 50px;
+        
+    }
+
+    .cuatro {
+        width: 80px;
+        height: 50px;
+       
+    }
+
+    .cinco {
+        width: 80px;
+        height: 50px;
+        
+    }
+
+    .seis {
+        width: 80px;
+        height: 50px;
+        
+    }
+
+    .siete {
+        width: 80px;
+        height: 50px;
+        
+    }
+
+    .ocho {
+        width: 80px;
+        height: 50px;
+        
+    }
+
+    .nueve {
+        width: 80px;
+        height: 50px;
+        
+
+    }
+
+    .diez {
+        width: 80px;
+        height: 50px;
+        
+
+    }
+
+    .once {
+        width: 80px;
+        height: 50px;
+        
+
+    }
+
+    .doce {
+        width: 80px;
+        height: 50px;
+        
+
+    }
+
+    .trece {
+        width: 80px;
+        height: 50px;
+        
+
+    }
+
+    .catorce {
+        width: 80px;
+        height: 50px;
+        
+
+    }
+
+    .quince {
+        width: 80px;
+        height: 50px;
+
+    }
+
+    .dieciseis {
+        width: 80px;
+        height: 50px;
+
+    }
+
+    .diecisiete {
+        width: 80px;
+        height: 50px;
+
+    }
+
+    .dieciocho {
+        width: 80px;
+        height: 50px;
     }
 
     .contenedoruno {
-        display: grid;
+
+        display: flex;
+        justify-content: center;
+        font-size: 80%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     }
 
     .contenedordos {
-        display: grid;
+
+        display: flex;
+        justify-content: center;
+        font-size: 80%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     .contenedortres {
-        display: grid;
+        display: flex;
+        justify-content: center;
+        font-size: 80%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     .contenedorcuatro {
-        display: grid;
+        display: flex;
+        justify-content: center;
+        font-size: 80%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     .contenedorcinco {
-        display: grid;
-    }
-
-    h2 {
-        font-size: 100%;
-        color: rgb(83, 23, 139);
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: justify;
-
-        padding: none;
-        border: none;
-        border-radius: none;
-    }
-
-    .todolodemas {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
         justify-content: center;
-        font-size: 90%;
-        padding: none;
-        overflow: hidden;
+        font-size: 80%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     }
 
     .formulario {
         color: rgb(83, 23, 139);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 80%;
-        border: none;
-        box-shadow: none;
+        border: 2px solid rgb(165, 116, 197);
+        box-shadow: 4px 4px 4px;
         justify-content: center;
         position: absolute;
-        left: 0%;
+        left: 35%;
         padding: 7%;
         text-transform: uppercase;
-        border-radius: none;
+        border-radius: 10px;
     }
 
-
-
-
-    .grid-layout {
-        display: none;
+    .th {
+        background-color: rgb(186, 253, 118);
     }
 
-}
+    .esquina {
+        background-color: rgb(212, 212, 212);
+    }
 
-@media only screen and (min-width: 600px) and (mak-width:1500px) {
-  
+    .columna {
+        background-color: rgb(252, 200, 105);
+    }
+
+    .tiposdevacunas {
+        font-size: 100%;
+        color: rgb(83, 23, 139);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+    .enf {
+        color: rgb(83, 23, 139);
+    }
+
+    /* diseño responsive */
+    @media only screen and (max-width: 600px) {
 
 
-}
+
+
+
+
+        h1 {
+            color: rgb(83, 23, 139);
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 100%;
+            padding: 1%;
+            border: 3px solid rgb(216, 202, 226);
+            box-shadow: 4px 4px 4px;
+            background-color: rgb(245, 168, 241);
+            border-radius: 10px;
+
+
+        }
+
+        h3 {
+            font-size: 90%;
+            color: rgb(83, 23, 139);
+        }
+
+
+
+        .tiposdevacunas {
+            display: none;
+        }
+
+        .borrar {
+            display: none;
+        }
+
+        .contenedoruno {
+            display: grid;
+        }
+
+        .contenedordos {
+            display: grid;
+        }
+
+        .contenedortres {
+            display: grid;
+        }
+
+        .contenedorcuatro {
+            display: grid;
+        }
+
+        .contenedorcinco {
+            display: grid;
+        }
+
+        h2 {
+            font-size: 100%;
+            color: rgb(83, 23, 139);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: justify;
+
+            padding: none;
+            border: none;
+            border-radius: none;
+        }
+
+        .todolodemas {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            justify-content: center;
+            font-size: 90%;
+            padding: none;
+            overflow: hidden;
+        }
+
+        .formulario {
+            color: rgb(83, 23, 139);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 80%;
+            border: none;
+            box-shadow: none;
+            justify-content: center;
+            position: absolute;
+            left: 0%;
+            padding: 7%;
+            text-transform: uppercase;
+            border-radius: none;
+        }
+
+
+
+
+        .grid-layout {
+            display: none;
+        }
+
+    }
+
+    @media only screen and (min-width: 600px) and (mak-width:1500px) {}
