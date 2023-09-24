@@ -11,7 +11,11 @@
 
 <body><!--titulo-->
     <!--pongo link acceso a css dentro del body-->
+
+
     <h1>LA VACUNACIÓN EN CADA ETAPA DE LA VIDA</h1>
+
+
     <!--enlace interno-->
     <!--enlaces absolutos son a otra pag-->
     <!--enlaces relativos me redireccionan a un archivo de mi pag-->
@@ -75,10 +79,12 @@
 
     </div>
 
-  
-    <img src="imagenes pagweb\CALENDARIO_VACUNACION-07.jpg" alt="calendario" class="calendario">
-    <img src="imagenes pagweb\CALENDARIO_VACUNACION-08.jpg" alt="calendario" class="calendario">
-   
+    <div class="calendarios">
+        <img src="imagenes pagweb\CALENDARIO_VACUNACION-07.jpg" alt="calendario" class="calendario">
+        <img src="imagenes pagweb\CALENDARIO_VACUNACION-08.jpg" alt="calendario" class="calendario">
+    </div>
+
+
     <!-- flex container -->
     <div id="enfermedades">
         <h2>ENFERMEDADES</h2>
@@ -165,117 +171,34 @@
 
     </div>
     <br>
-    <div class="tiposdevacunas">
-        <div id="tiposdevacunas">
-
-            <h2>Tipos de vacunas y contraindicaciones</h2>
-            <table border="filas">
-
-
-                <tr>
-                    <th>Tipo de vacuna</th>
-                    <th>Vivas atenuadas</th>
-                    <th>Recombinantes</th>
-                    <th>Toxoides</th>
-                    <th>Polisacáridos</th>
-                    <th>Combinadas</th>
-                </tr>
-                <tr>
-                    <th>Características</th>
-                    <th>Las vacunas vivas utilizan una forma debilitada del germen que causa una enfermedad. Dado que
-                        estas vacunas
-                        son tan similares a la infección natural que ayudan a prevenir, crean una respuesta inmunitaria
-                        fuerte y de larga duración. Solo 1 o 2 dosis de la mayoría de las vacunas vivas pueden proteger
-                        durante toda la vida contra la enfermedad que causa</th>
-                    <th>Obtenidas mediante ingeniería genética, introduciendo en un microorganismo un gen que da lugar a
-                        un antígeno específico</th>
-                    <th> Utilizan una toxina (producto nocivo) fabricada a partir del germen que causa una enfermedad.
-                        Crean inmunidad a las partes del germen que causan una
-                        enfermedad en lugar de al germen en sí. Esto significa que la respuesta inmunitaria va dirigida
-                        a la toxina en lugar de a todo el germen. Al igual que otros tipos de vacunas, es posible que
-                        necesite vacunas de refuerzo para tener protección continua contra las enfermedades</th>
-                    <th>Actúan sobre las moléculas de los patógenos. Se requieren varias dosis</th>
-                    <th>Contiene antígenos de varios agentes infecciosos, o diferentes serotipos/ serogrupos de un mismo
-                        agente, que se aplican en una sola administración</th>
-                </tr>
-                <tr>
-                    <th>Ejemplos</th>
-                    <th>Sarampión,rubéola, paperas, rotavirus, varicela, fiebre amarilla, BCG</th>
-                    <th>Hepatitis B, hpv</th>
-                    <th>Difteria y tétanos</th>
-                    <th>Meningococo, Hib, neumococo, polio, influenza, hepatitis A, tos convulsa</th>
-                    <th>SR(doble viral), SRP(triple viral), dT(doble bacteriana), dTap (triple bacteriana acelular), DTP
-                        (triple bacteriana celular)</th>
-                </tr>
-                <tr>
-                    <th>Contraindicaciones</th>
-                    <th> No deben aplicarsela embarazadas o personas
-                        con el sistema inmune debilitado</th>
-                    <th>Reacción alérgica grave a una dosis anterior. No se recomienda la de hpv en el embarazo</th>
-                    <th>Inmunodeprimidos</th>
-                    <th>Reacción alérgica grave a una dosis anterior</th>
-                    <th>No debe aplicarse la triple viral en el embarazo</th>
-                </tr>
-            </table>
-
-        </div>
-    </div>
-    <br>
 
 
     <div class="formulario" id="contacto">
         <h2>Contacto</h2>
-        <br>
 
         <!--si necesito hacer un formulario para que el usuario llene:-->
         <!--el required id le dice al usuario que los campos son obligatorios-->
         <label for="nombre">Nombre:</label>
         <input type="text" required id="nombre" placeholder="Ingrese su nombre">
-        <BR>
-
-
-
-        </BR>
 
 
         <label for="contraseña">Contraseña:</label>
         <input type="password" placeholder="Ingrese su contraseña">
-        <BR>
 
-
-
-        </BR>
 
         <label for="email">Email:</label>
         <input type="email" required id="email" id="" placeholder="Ingrese su email">
-        <BR>
 
-
-
-
-        </BR>
         <label for="edad">Edad:</label>
         <input type="number" name="edad" id="" placeholder="Ingrese su edad">
-        <BR>
 
-
-
-        </BR>
         <label for="telefono">Teléfono:</label>
         <input type="text" name="teléfono" id="" placeholder="Ingrese su teléfono">
-        <BR>
 
-
-
-        </BR>
         <!--para que la caja de comentario sea grande poner textarea. El placeholder genera un texto subliminal-->
         <label for="">Comentarios:</label>
         <textarea name="" id="" cols="30" rows="10" placeholder="Escriba aquí su comentario:..."></textarea>
-        <BR>
 
-
-
-        </BR>
         <p>Acepta los términos y condiciones</p>
         <input type="checkbox" name="" id="">
         <!--para enviar en value pongo enviar-->

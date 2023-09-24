@@ -9,58 +9,56 @@
 /* el position sticky es como el fixed pero recién se activa cuando llego a la parte donde lo puse y empieza a bajar con el usuario */
 /* z-index es para poner la caja de position por debajo de los demás elementos, tengo que ponerle un numero positivo si quiero que esté
  encima o uno negativo -1 si lo quiero de fondo */
-.gri {
-    background-color: rgb(214, 212, 212);
-}
+
 
 .cajac1 {
     background-color: rgb(255, 164, 128);
-    border: 2px solid rgb(165, 116, 197);    
+    border: 2px solid rgb(165, 116, 197);
     float: left;
     border-radius: 10px;
-    padding: 2px;
-    
+    padding: 3px;
+
 }
 
 .cajac2 {
     background-color: rgb(236, 255, 128);
-    border: 2px solid rgb(165, 116, 197);    
+    border: 2px solid rgb(165, 116, 197);
     float: left;
     border-radius: 10px;
-    padding: 2px;
-    
+    padding: 3px;
+
 }
 
 .cajac3 {
     background-color: rgb(128, 255, 145);
-    border: 2px solid rgb(165, 116, 197);    
+    border: 2px solid rgb(165, 116, 197);
     float: left;
     border-radius: 10px;
-    padding: 2px;
+    padding: 3px;
 }
 
 .cajac4 {
     background-color: rgb(128, 230, 255);
-    border: 2px solid rgb(165, 116, 197);    
+    border: 2px solid rgb(165, 116, 197);
     float: left;
     border-radius: 10px;
-    padding: 2px;
+    padding: 3px;
 }
 
 .cajac5 {
     background-color: rgb(141, 128, 255);
-    border: 2px solid rgb(165, 116, 197);    
+    border: 2px solid rgb(165, 116, 197);
     float: left;
     border-radius: 10px;
-    padding: 2px;
+    padding: 3px;
 }
 
 .cajac6 {
     background-color: rgb(255, 128, 217);
-    border: 2px solid rgb(165, 116, 197);    
+    border: 2px solid rgb(165, 116, 197);
     float: left;
     border-radius: 10px;
-    padding: 2px;
+    padding: 3px;
 }
 
 /* el column gap separa los bloques */
@@ -71,11 +69,11 @@
     justify-content: baseline;
     margin: 0 auto;
     border: none;
-    column-gap: none;
-    position: relative;
+    column-gap: 4%;
     
-    
-    
+
+
+
 
 }
 
@@ -104,7 +102,6 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
     padding: 2%;
-
     border-radius: 10px;
 }
 
@@ -136,328 +133,301 @@ h3 {
 /* el display flex pone las imagenes una al lado de la otra,evita que se superpongan.tienen que estar en un contenedor. justify content hace un justificado
 como en los textos y center las centra */
 
-.primer {
-    list-style: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 2px solid black;
-    box-shadow: 8px 8px 8px;
-}
 
-
-.lista {
-    list-style: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 2px solid black;
-    box-shadow: 8px 8px 8px;
-
-}
 
 .calendario {
-width: 100%;
-height: 100%;
+    width: 20%;
+    height: 20%;
+}
+
+.calendarios {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.contenedor h4 {
+    font-size: 120%;
+    color: rgb(83, 23, 139);
+}
+
+/* flex */
+/* flex wrap */
+/* flex wrap hace que no desborde a lo horizontal */
+/* CON WIDTH(ANCHO) Y HEIGHT(ALTO) MODIFICO EL TAMAÑO DE LAS IMAGENES */
+/* flex direction */
+/* flex flow , une valores*/
+
+.uno {
+    width: 80px;
+    height: 50px;
+
+
+}
+
+.dos {
+    width: 80px;
+    height: 50px;
+
+}
+
+.tres {
+    width: 80px;
+    height: 50px;
+
+}
+
+.cuatro {
+    width: 80px;
+    height: 50px;
+
+}
+
+.cinco {
+    width: 80px;
+    height: 50px;
+
+}
+
+.seis {
+    width: 80px;
+    height: 50px;
+
+}
+
+.siete {
+    width: 80px;
+    height: 50px;
+
+}
+
+.ocho {
+    width: 80px;
+    height: 50px;
+
+}
+
+.nueve {
+    width: 80px;
+    height: 50px;
+
+
+}
+
+.diez {
+    width: 80px;
+    height: 50px;
+
+
+}
+
+.once {
+    width: 80px;
+    height: 50px;
+
+
+}
+
+.doce {
+    width: 80px;
+    height: 50px;
+
+
+}
+
+.trece {
+    width: 80px;
+    height: 50px;
+
+
+}
+
+.catorce {
+    width: 80px;
+    height: 50px;
+
+
+}
+
+.quince {
+    width: 80px;
+    height: 50px;
+
+}
+
+.dieciseis {
+    width: 80px;
+    height: 50px;
+
+}
+
+.diecisiete {
+    width: 80px;
+    height: 50px;
+
+}
+
+.dieciocho {
+    width: 80px;
+    height: 50px;
+}
+
+.contenedoruno {
+
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.contenedordos {
+
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedortres {
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedorcuatro {
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedorcinco {
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.formulario {
+    color: rgb(83, 23, 139);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid rgb(165, 116, 197);
+    
+}
+
+.th {
+    background-color: rgb(186, 253, 118);
+}
+
+.esquina {
+    background-color: rgb(212, 212, 212);
+}
+
+.columna {
+    background-color: rgb(252, 200, 105);
 }
 
 
-    .contenedor h4 {
-        font-size: 120%;
+/* diseño responsive */
+@media only screen and (max-width: 600px) {
+
+
+
+
+
+
+    h1 {
         color: rgb(83, 23, 139);
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 100%;
+        padding: 1%;
+        border: 3px solid rgb(216, 202, 226);
+        box-shadow: 4px 4px 4px;
+        background-color: rgb(245, 168, 241);
+        border-radius: 10px;
 
 
     }
 
-    /* flex */
-    /* flex wrap */
-    /* flex wrap hace que no desborde a lo horizontal */
-    /* CON WIDTH(ANCHO) Y HEIGHT(ALTO) MODIFICO EL TAMAÑO DE LAS IMAGENES */
-    /* flex direction */
-    /* flex flow , une valores*/
-
-    .uno {
-        width: 80px;
-        height: 50px;
-        
-
+    h3 {
+        font-size: 90%;
+        color: rgb(83, 23, 139);
     }
 
-    .dos {
-        width: 80px;
-        height: 50px;
-        
+
+
+    .tiposdevacunas {
+        display: none;
     }
 
-    .tres {
-        width: 80px;
-        height: 50px;
-        
-    }
-
-    .cuatro {
-        width: 80px;
-        height: 50px;
-       
-    }
-
-    .cinco {
-        width: 80px;
-        height: 50px;
-        
-    }
-
-    .seis {
-        width: 80px;
-        height: 50px;
-        
-    }
-
-    .siete {
-        width: 80px;
-        height: 50px;
-        
-    }
-
-    .ocho {
-        width: 80px;
-        height: 50px;
-        
-    }
-
-    .nueve {
-        width: 80px;
-        height: 50px;
-        
-
-    }
-
-    .diez {
-        width: 80px;
-        height: 50px;
-        
-
-    }
-
-    .once {
-        width: 80px;
-        height: 50px;
-        
-
-    }
-
-    .doce {
-        width: 80px;
-        height: 50px;
-        
-
-    }
-
-    .trece {
-        width: 80px;
-        height: 50px;
-        
-
-    }
-
-    .catorce {
-        width: 80px;
-        height: 50px;
-        
-
-    }
-
-    .quince {
-        width: 80px;
-        height: 50px;
-
-    }
-
-    .dieciseis {
-        width: 80px;
-        height: 50px;
-
-    }
-
-    .diecisiete {
-        width: 80px;
-        height: 50px;
-
-    }
-
-    .dieciocho {
-        width: 80px;
-        height: 50px;
+    .borrar {
+        display: none;
     }
 
     .contenedoruno {
-
-        display: flex;
-        justify-content: center;
-        font-size: 80%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+        display: grid;
     }
 
     .contenedordos {
-
-        display: flex;
-        justify-content: center;
-        font-size: 80%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: grid;
     }
 
     .contenedortres {
-        display: flex;
-        justify-content: center;
-        font-size: 80%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: grid;
     }
 
     .contenedorcuatro {
-        display: flex;
-        justify-content: center;
-        font-size: 80%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: grid;
     }
 
     .contenedorcinco {
-        display: flex;
-        justify-content: center;
-        font-size: 80%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: grid;
+    }
 
+    h2 {
+        font-size: 100%;
+        color: rgb(83, 23, 139);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: justify;
+
+        padding: none;
+        border: none;
+        border-radius: none;
+    }
+
+    .todolodemas {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        justify-content: center;
+        font-size: 90%;
+        padding: none;
+        overflow: hidden;
     }
 
     .formulario {
         color: rgb(83, 23, 139);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        border: 2px solid rgb(165, 116, 197);
-        box-shadow: 4px 4px 4px;
+        font-size: 80%;
+        border: none;
+        box-shadow: none;
         justify-content: center;
         position: absolute;
-        left: 35%;
+        left: 0%;
         padding: 7%;
         text-transform: uppercase;
-        border-radius: 10px;
+        border-radius: none;
     }
 
-    .th {
-        background-color: rgb(186, 253, 118);
+
+
+
+    .grid-layout {
+        display: none;
     }
 
-    .esquina {
-        background-color: rgb(212, 212, 212);
-    }
+}
 
-    .columna {
-        background-color: rgb(252, 200, 105);
-    }
-
-    .tiposdevacunas {
-        font-size: 100%;
-        color: rgb(83, 23, 139);
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-    }
-
-    .enf {
-        color: rgb(83, 23, 139);
-    }
-
-    /* diseño responsive */
-    @media only screen and (max-width: 600px) {
-
-
-
-
-
-
-        h1 {
-            color: rgb(83, 23, 139);
-            text-align: center;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 100%;
-            padding: 1%;
-            border: 3px solid rgb(216, 202, 226);
-            box-shadow: 4px 4px 4px;
-            background-color: rgb(245, 168, 241);
-            border-radius: 10px;
-
-
-        }
-
-        h3 {
-            font-size: 90%;
-            color: rgb(83, 23, 139);
-        }
-
-
-
-        .tiposdevacunas {
-            display: none;
-        }
-
-        .borrar {
-            display: none;
-        }
-
-        .contenedoruno {
-            display: grid;
-        }
-
-        .contenedordos {
-            display: grid;
-        }
-
-        .contenedortres {
-            display: grid;
-        }
-
-        .contenedorcuatro {
-            display: grid;
-        }
-
-        .contenedorcinco {
-            display: grid;
-        }
-
-        h2 {
-            font-size: 100%;
-            color: rgb(83, 23, 139);
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            text-align: justify;
-
-            padding: none;
-            border: none;
-            border-radius: none;
-        }
-
-        .todolodemas {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            justify-content: center;
-            font-size: 90%;
-            padding: none;
-            overflow: hidden;
-        }
-
-        .formulario {
-            color: rgb(83, 23, 139);
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 80%;
-            border: none;
-            box-shadow: none;
-            justify-content: center;
-            position: absolute;
-            left: 0%;
-            padding: 7%;
-            text-transform: uppercase;
-            border-radius: none;
-        }
-
-
-
-
-        .grid-layout {
-            display: none;
-        }
-
-    }
-
-    @media only screen and (min-width: 600px) and (mak-width:1500px) {}
+@media only screen and (min-width: 600px) and (mak-width:1500px) {}
